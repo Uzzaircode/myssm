@@ -54,6 +54,15 @@ html {
   font-size: 15px;
 }
 
+.services-list {
+  -moz-column-count: 2;
+  -moz-column-gap: 20px;
+  -webkit-column-count: 2;
+  -webkit-column-gap: 20px;
+  column-count: 2;
+  column-gap: 20px;
+}
+
 /* ================== HELPERS  =================== */
 
 a:hover {

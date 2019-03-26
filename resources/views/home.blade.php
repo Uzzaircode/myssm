@@ -11,10 +11,11 @@
                         extensive network of partners we can deliver any business data that you need.</p>
                     <div class="input-group">
                         <input type="text" class="form-control form-control-lg"
-                            aria-label="Text input with dropdown button" placeholder="Search for Company, Business or Audit Firm">
+                            aria-label="Text input with dropdown button"
+                            placeholder="Search for Company, Business or Audit Firm">
                         <div class="input-group-append">
-                            <button class="btn btn-secondary dropdown-toggle" type="button"
-                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">All
+                            <button class="btn btn-secondary dropdown-toggle" type="button" data-toggle="dropdown"
+                                aria-haspopup="true" aria-expanded="false">All
                                 Entities</button>
                             <div class="dropdown-menu">
                                 <a class="dropdown-item" href="#">Company</a>
@@ -38,14 +39,13 @@
 <section id="features" class="section-features padding-y-lg">
     <div class="container">
         <header class="section-heading text-left">
-            <h1 class="display-3">It's Easier With MySSM</h1>
+            <h1 class="display-4">It's Easier With MySSM</h1>
             <p class="display-4" style="font-size:2.0rem;">With our ecosystems of data and integrations - <br>you have a
                 single platform to obtain valid business data.</p>
         </header><!-- sect-heading -->
     </div>
     <div class="pt-5"></div>
-    <div class="pt-5"></div>
-    <div class="pt-5"></div>
+    <div class="pt-5"></div>    
     <div class="container">
         <div class="row">
             <aside class="col">
@@ -87,7 +87,93 @@
         </div> <!-- row.// -->
     </div>
 </section>
-<section class="section-features padding-y-lg">
-
+<section id="features" class="section-features padding-y-lg">
+    <div class="container">
+        <header class="section-heading text-left">
+            <h1 class="display-4">We Offer Wide Range Of Services</h1>
+            <p class="display-4" style="font-size:2.0rem;">
+                Your one stop solution for business datasets.
+            </p>
+        </header><!-- sect-heading -->
+    </div>
+    <div class="pt-5"></div>
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <ul class="list-unstyled services-list">
+                    <li>
+                        <h4>
+                            Particular Of Company Secretary
+                        </h4>
+                    </li>
+                    <li>
+                        <h4>
+                            Audit Firm Profile
+                        </h4>
+                    </li>
+                    <li>
+                        <h4>
+                            Company Profile
+                        </h4>
+                    </li>
+                    <li>
+                        <h4>
+                            Business Profile
+                        </h4>
+                    </li>
+                    <li>
+                        <h4>
+                            Certificates Of Incorporation/Registration
+                        </h4>
+                    </li>
+                    <li>
+                        <h4>
+                            Business Certificates
+                        </h4>
+                    </li>
+                    <li>
+                        <h4>
+                            Document Images
+                        </h4>
+                    </li>
+                    <li>
+                        <h4>
+                            Certificate Of Change Of Names
+                        </h4>
+                    </li>
+                    <li>
+                        <h4>
+                            Certificates Of Conversion
+                        </h4>
+                    </li>                    
+                    <li>
+                        <h4>
+                            Particular Of Registered Address
+                        </h4>
+                    </li>
+                    <li>
+                        <h4>
+                            Particular Of Directors/Officers
+                        </h4>
+                    </li>
+                    <li>
+                        <h4>
+                            Financial Comparison
+                        </h4>
+                    </li>
+                    <li>
+                        <h4>
+                            Particular Of Shareholders
+                        </h4>
+                    </li>
+                    <li>
+                        <h4>
+                            Particular Of Share Capital
+                        </h4>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
 </section>
 @endsection

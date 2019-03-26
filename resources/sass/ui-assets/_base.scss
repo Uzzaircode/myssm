@@ -2,4 +2,15 @@
 // @import url('https://fonts.googleapis.com/css?family=Work+Sans:400,700');
 @import url('https://fonts.googleapis.com/css?family=Karla|Rubik:500');
 
-html{font-size:15px;}
+html {
+    font-size: 15px;
+}
+
+.services-list {
+    -moz-column-count: 2;
+    -moz-column-gap: 20px;
+    -webkit-column-count: 2;
+    -webkit-column-gap: 20px;
+    column-count: 2;
+    column-gap: 20px;
+}
