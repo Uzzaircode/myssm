@@ -1,6 +1,8 @@
 .navbar-top{padding:0}
-
-.navbar-landing{transition: .5s; padding-top:15px; padding-bottom:15px;  position: fixed; top: 0; z-index: 100; width: 100%;}
+.header-background{
+	@include primary-gradient-background;
+}
+.navbar-landing{transition: .5s; padding-top:3px; padding-bottom:3px;  position: absolute; top: 0; z-index: 100; width: 100%;}
 .navbar-landing.fixed-top{transition: .5s;  padding-top:7px; padding-bottom:7px; }
 
 /* ================== header main ==================  */
@@ -17,6 +19,10 @@
 	.title{display:block}
 	.notify{ position:absolute; top:-3px; right:-10px}
 }
+
+
+
+
 
 
 

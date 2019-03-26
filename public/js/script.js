@@ -21,16 +21,16 @@ $(document).ready(function() {
     });
 
     ///////////////// fixed menu on scroll for desctop
-    if ($(window).width() > 768) {
+    // if ($(window).width() > 768) {
         
-        $(window).scroll(function(){  
-            if ($(this).scrollTop() > 125) {
-                 $('.navbar-landing').addClass("fixed-top");
-            }else{
-                $('.navbar-landing').removeClass("fixed-top");
-            }   
-        });
-    } // end if
+    //     $(window).scroll(function(){  
+    //         if ($(this).scrollTop() > 125) {
+    //              $('.navbar-landing').addClass("fixed-top");
+    //         }else{
+    //             $('.navbar-landing').removeClass("fixed-top");
+    //         }   
+    //     });
+    // } // end if
     
 	//////////////////////// Fancybox. /plugins/fancybox/
 	if($("[data-fancybox]").length>0) {  // check if element exists
@@ -105,7 +105,9 @@ $(document).ready(function() {
            
         }); // each end.//
     } // end if
-	
+    
+    // feathericons
+    feather.replace({ 'stroke-width': 1 });
 
 }); 
 // jquery end
