@@ -46,10 +46,7 @@
                                             <small class="text-muted">(MYR5 each)</small>
                                         </div> <!-- price-wrap .// -->
                                     </td>
-                                    <td class="text-right">
-                                        <a data-original-title="Save to Wishlist" title="" href=""
-                                            class="btn btn-outline-success" data-toggle="tooltip"> <i
-                                                class="fa fa-heart"></i></a>
+                                    <td class="text-right">                                        
                                         <a href="" class="btn btn-outline-danger"> × Remove</a>
                                     </td>
                                 </tr>
@@ -81,9 +78,7 @@
                                         </div> <!-- price-wrap .// -->
                                     </td>
                                     <td class="text-right">
-                                        <a data-original-title="Save to Wishlist" title="" href=""
-                                            class="btn btn-outline-success" data-toggle="tooltip"> <i
-                                                class="fa fa-heart"></i></a>
+                                        
                                         <a href="" class="btn btn-outline-danger btn-round"> × Remove</a>
                                     </td>
                                 </tr>
@@ -114,10 +109,7 @@
                                             <small class="text-muted">(MYR15 each)</small>
                                         </div> <!-- price-wrap .// -->
                                     </td>
-                                    <td class="text-right">
-                                        <a data-original-title="Save to Wishlist" title="" href=""
-                                            class="btn btn-outline-success" data-toggle="tooltip"> <i
-                                                class="fa fa-heart"></i></a>
+                                    <td class="text-right">                                       
                                         <a href="" class="btn btn-outline-danger btn-round"> × Remove</a>
                                     </td>
                                 </tr>
