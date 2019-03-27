@@ -105,10 +105,11 @@ $(document).ready(function() {
            
         }); // each end.//
     } // end if
-    
-    // feathericons
-    feather.replace({ 'stroke-width': 1 });
+       
 
+    $('.services-list > li').hover(function(){
+        this
+    });
 }); 
 // jquery end
 

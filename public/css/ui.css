@@ -1,9 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Karla|Rubik:500);@charset "UTF-8";
 
-/* ========================
-UIkit bootstrap-ecommerce.com 
-===================== */
-
 @-webkit-keyframes float {
   0% {
     box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6);
@@ -684,7 +680,6 @@ article:after,
 
 /*! 
  * grid for 24 of 1 
- * made by bootstrap-ecommerce.com
 */
 
 .col-1-24 {
