@@ -40,8 +40,7 @@
     <div class="container">
         <header class="section-heading text-left">
             <h1 class="display-4">It's Easier With MySSM</h1>
-            <p class="display-4" style="font-size:2.0rem;">With our ecosystems of data and integrations - <br>you have a
-                single platform to obtain valid business data.</p>
+            <p class="display-4" style="font-size:2.0rem;">With our ecosystems of data and integrations - <br>you have a single platform to obtain valid business data.</p>
         </header><!-- sect-heading -->
     </div>
     <div class="pt-5"></div>
@@ -105,71 +104,86 @@
                     <li>
                         <h4>
                             Particular Of Company Secretary
+                            <span><button class="service-button btn btn-primary">View Sample</button></span>
                         </h4>
+                        
                     </li>
                     <li>
                         <h4>
                             Audit Firm Profile
+                            <span><button class="service-button btn btn-primary">View Sample</button></span>
                         </h4>
                     </li>
                     <li>
                         <h4>
                             Company Profile
+                            <span><button class="service-button btn btn-primary">View Sample</button></span>
                         </h4>
                     </li>
                     <li>
                         <h4>
                             Business Profile
+                            <span><button class="service-button btn btn-primary">View Sample</button></span>
                         </h4>
                     </li>
                     <li>
                         <h4>
                             Certificates Of Incorporation/Registration
+                            <span><button class="service-button btn btn-primary">View Sample</button></span>
                         </h4>
                     </li>
                     <li>
                         <h4>
                             Business Certificates
+                            <span><button class="service-button btn btn-primary">View Sample</button></span>
                         </h4>
                     </li>
                     <li>
                         <h4>
                             Document Images
+                            <span><button class="service-button btn btn-primary">View Sample</button></span>
                         </h4>
                     </li>
                     <li>
                         <h4>
                             Certificate Of Change Of Names
+                            <span><button class="service-button btn btn-primary">View Sample</button></span>
                         </h4>
                     </li>
                     <li>
                         <h4>
                             Certificates Of Conversion
+                            <span><button class="service-button btn btn-primary">View Sample</button></span>
                         </h4>
                     </li>                    
                     <li>
                         <h4>
                             Particular Of Registered Address
+                            <span><button class="service-button btn btn-primary">View Sample</button></span>
                         </h4>
                     </li>
                     <li>
                         <h4>
                             Particular Of Directors/Officers
+                            <span><button class="service-button btn btn-primary">View Sample</button></span>
                         </h4>
                     </li>
                     <li>
                         <h4>
                             Financial Comparison
+                            <span><button class="service-button btn btn-primary">View Sample</button></span>
                         </h4>
                     </li>
                     <li>
                         <h4>
                             Particular Of Shareholders
+                            <span><button class="service-button btn">View Sample</button></span>
                         </h4>
                     </li>
                     <li>
                         <h4>
                             Particular Of Share Capital
+                            <span><button class="service-button btn btn-primary">View Sample</button></span>
                         </h4>
                     </li>
                 </ul>

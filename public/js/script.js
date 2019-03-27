@@ -1,28 +1,28 @@
 // some scripts
 
 // jquery ready start
-$(document).ready(function() {
-	// jQuery code
+$(document).ready(function () {
+    // jQuery code
 
 
 
-    
+
     /* ///////////////////////////////////////
 
     THESE FOLLOWING SCRIPTS ONLY FOR BASIC USAGE, 
     For sliders, interactions and other
 
     */ ///////////////////////////////////////
-    
 
-	//////////////////////// Prevent closing from click inside dropdown
+
+    //////////////////////// Prevent closing from click inside dropdown
     $(document).on('click', '.dropdown-menu', function (e) {
-      e.stopPropagation();
+        e.stopPropagation();
     });
 
     ///////////////// fixed menu on scroll for desctop
     // if ($(window).width() > 768) {
-        
+
     //     $(window).scroll(function(){  
     //         if ($(this).scrollTop() > 125) {
     //              $('.navbar-landing').addClass("fixed-top");
@@ -31,26 +31,28 @@ $(document).ready(function() {
     //         }   
     //     });
     // } // end if
-    
-	//////////////////////// Fancybox. /plugins/fancybox/
-	if($("[data-fancybox]").length>0) {  // check if element exists
-		$("[data-fancybox]").fancybox();
-	} // end if
-	
-	//////////////////////// Bootstrap tooltip
-	if($('[data-toggle="tooltip"]').length>0) {  // check if element exists
-		$('[data-toggle="tooltip"]').tooltip()
-	} // end if
+
+    //////////////////////// Fancybox. /plugins/fancybox/
+    if ($("[data-fancybox]").length > 0) { // check if element exists
+        $("[data-fancybox]").fancybox();
+    } // end if
+
+    //////////////////////// Bootstrap tooltip
+    if ($('[data-toggle="tooltip"]').length > 0) { // check if element exists
+        $('[data-toggle="tooltip"]').tooltip()
+    } // end if
 
     /////////////////////// Closes the Responsive Menu on Menu Item Click
-    $('.navbar-collapse ul li a.page-scroll').click(function() {
+    $('.navbar-collapse ul li a.page-scroll').click(function () {
         $('.navbar-toggler:visible').click();
     });
 
     //////////////////////// Menu scroll to section for landing
-    $('a.page-scroll').click(function(event) {
+    $('a.page-scroll').click(function (event) {
         var $anchor = $(this);
-        $('html, body').stop().animate({ scrollTop: $($anchor.attr('href')).offset().top - 50  }, 1000);
+        $('html, body').stop().animate({
+            scrollTop: $($anchor.attr('href')).offset().top - 50
+        }, 1000);
         event.preventDefault();
     });
 
@@ -59,11 +61,11 @@ $(document).ready(function() {
         $('.slick-slider').slick();
     } // end if
 
-	/////////////////  items carousel. /plugins/owlcarousel/
+    /////////////////  items carousel. /plugins/owlcarousel/
     if ($('.owl-init').length > 0) { // check if element exists
 
-       $(".owl-init").each(function(){
-            
+        $(".owl-init").each(function () {
+
             var myOwl = $(this);
             var data_items = myOwl.data('items');
             var data_nav = myOwl.data('nav');
@@ -80,7 +82,7 @@ $(document).ready(function() {
                 autoplay: false,
                 items: data_items,
                 navText: ["<i class='fa fa-chevron-left'></i>", "<i class='fa fa-chevron-right'></i>"],
-                 //items: 4,
+                //items: 4,
                 responsive: {
                     0: {
                         items: 1
@@ -95,21 +97,38 @@ $(document).ready(function() {
             });
 
             // for custom navigation. See example page: example-sliders.html
-            $('.'+data_custom_nav+'.owl-custom-next').click(function(){
-                $('#'+id_owl).trigger('next.owl.carousel');
+            $('.' + data_custom_nav + '.owl-custom-next').click(function () {
+                $('#' + id_owl).trigger('next.owl.carousel');
             });
 
-            $('.'+data_custom_nav+'.owl-custom-prev').click(function(){
-                $('#'+id_owl).trigger('prev.owl.carousel');
+            $('.' + data_custom_nav + '.owl-custom-prev').click(function () {
+                $('#' + id_owl).trigger('prev.owl.carousel');
             });
-           
+
         }); // each end.//
     } // end if
-       
+    let bg = "background: #0f0c29 !important;background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29) !important; background: linear-gradient(to right, #24243e, #302b63, #0f0c29) !important;"
 
-    $('.services-list > li').hover(function(){
-        this
+    $('.service-button').hide();
+    $('.service-button').css('background', bg);
+
+    $('.services-list > li').hover(function () {
+        $(this).css('cursor', 'pointer');
+        $(this).find('.service-button').fadeIn('slow');
     });
-}); 
-// jquery end
+    $('.services-list > li').mouseleave(function () {
+        $(this).find('.service-button').hide();
+    });
 
+    $('.shopping-cart').hide();
+
+    $("#cart").on("click", function () {
+        $(".shopping-cart").fadeToggle("fast");
+    });
+
+    $("#close-cart").on('click',function(){
+        $('.shopping-cart').fadeOut('fast');
+    });
+
+});
+// jquery end

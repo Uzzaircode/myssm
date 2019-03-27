@@ -12,14 +12,14 @@
     <!-- custom style -->
     <link href="{{asset('css/ui.css')}}" rel="stylesheet" type="text/css" />
     <link href="{{asset('css/responsive.css')}}" rel="stylesheet" media="only screen and (max-width: 1200px)" />
-    <!-- custom javascript -->    
+    <!-- custom javascript -->
 </head>
 
 <body class="relative">
     <!-- ========================= HEADER ========================= -->
-    @include('partials.header')
+    @include('partials.header-page')
 
-    @yield('content')      
+    @yield('content')
     <!-- ========================= FOOTER ========================= -->
     @include('partials.footer')
     <!-- ========================= SCRIPTS ========================= -->

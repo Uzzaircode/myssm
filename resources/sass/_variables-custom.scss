@@ -952,11 +952,11 @@ $print-page-size: a3 !default;
 $print-body-min-width: map-get($grid-breakpoints, "lg") !default;
 
 @mixin primary-gradient-background {
-    background: #0f0c29;
+    background: #0f0c29 !important;
     /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);
+    background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29) !important;
     /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #24243e, #302b63, #0f0c29);
+    background: linear-gradient(to right, #24243e, #302b63, #0f0c29) !important;
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
