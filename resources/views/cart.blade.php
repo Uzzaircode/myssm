@@ -183,12 +183,16 @@ My Cart
                         </div>
                     </dl>
                     <dl class="dlist-align">
-                        <dt>Total price: </dt>
-                        <dd class="text-right">MYR 568</dd>
+                        <dt>Total Price: </dt>
+                        <dd class="text-right">MYR 75.00</dd>
+                    </dl>
+                    <dl class="dlist-align">
+                        <dt>Service Tax: </dt>
+                        <dd class="text-right">MYR 0.60</dd>
                     </dl>
                     <dl class="dlist-align h4">
                         <dt>Total:</dt>
-                        <dd class="text-right"><strong>MYR 1,650</strong></dd>
+                        <dd class="text-right"><strong>MYR 75.60</strong></dd>
                     </dl>
                     <hr>
                     <button class="btn btn-block btn-warning font-weight-bold">Proceed To Checkout</button>
