@@ -16,7 +16,7 @@ MySSM - Home
                             aria-label="Text input with dropdown button"
                             placeholder="Search for Company, Business or Audit Firm">
                         <div class="input-group-append">
-                            <button class="btn btn-secondary dropdown-toggle" type="button" data-toggle="dropdown"
+                            <button class="btn btn-warning dropdown-toggle" type="button" data-toggle="dropdown"
                                 aria-haspopup="true" aria-expanded="false">All
                                 Entities</button>
                             <div class="dropdown-menu">
