@@ -2,7 +2,7 @@
         <div class="row">
             <div class="col">
                 <p class="text-muted">
-                    Documents purchased can only be viewed and downloaded within 7 days from date of purchase.
+                    Purchased documents can only be viewed and downloaded within 7 days from date of purchase.
                 </p>
             </div>
             <div class="col">

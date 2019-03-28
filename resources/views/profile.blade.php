@@ -26,7 +26,7 @@ My Account
                             <div class="tab-content" id="myTabContent">
                                 <div class="tab-pane fade show active" id="home" role="tabpanel"
                                     aria-labelledby="home-tab">
-                                    <p class="alert alert-primary">This section contains your profile information. You
+                                    <p class="text-muted">This section contains your profile information. You
                                         can update
                                         your profile here.</p>
                                     @include('partials.profiles.form')
