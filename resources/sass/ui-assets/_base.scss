@@ -119,6 +119,14 @@ html {
     clear: both;
 }
 
-.padding-page-content{
-    padding:132px 0;
+.padding-page-content {
+    padding: 132px 0;
+}
+
+.theme-color {
+    color: $myssm !important;
+}
+
+.theme-bg-color{
+    background-color:$myssm !important;
 }

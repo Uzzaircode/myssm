@@ -1,5 +1,7 @@
 @extends('master')
-
+@section('page-title')
+MySSM - Home
+@endsection
 @section('content')
 <section id="intro" class="section-intro header-background d-flex flex-column" style="height:100vh">
     <div class="container my-auto">

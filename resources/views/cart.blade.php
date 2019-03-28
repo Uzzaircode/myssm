@@ -1,4 +1,7 @@
 @extends('pages')
+@section('page-title')
+My Cart
+@endsection
 @section('content')
 <div class="padding-page-content">
     <section class="section-content">

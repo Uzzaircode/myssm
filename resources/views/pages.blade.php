@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Laravel</title>
+    <title>@yield('page-title')</title>
     <!-- Bootstrap4 files-->
     <link href="{{asset('css/bootstrap.css')}}" rel="stylesheet" type="text/css" />
     <!-- plugin: fancybox  -->

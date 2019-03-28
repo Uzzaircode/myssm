@@ -167,6 +167,14 @@ html {
   padding: 132px 0;
 }
 
+.theme-color {
+  color: #0f0c29 !important;
+}
+
+.theme-bg-color {
+  background-color: #0f0c29 !important;
+}
+
 /* ================== HELPERS  =================== */
 
 a:hover {
