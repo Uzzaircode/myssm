@@ -28,14 +28,10 @@ My Cart
                                             <div class="img-wrap"><img src="images/items/1.jpg"
                                                     class="img-thumbnail img-sm"></div>
                                             <figcaption class="media-body">
-                                                <h6 class="title text-truncate">Product name goes here </h6>
+                                                <h6 class="title text-truncate">Business Profile CTC </h6>
                                                 <dl class="dlist-inline small">
-                                                    <dt>Size: </dt>
-                                                    <dd>XXL</dd>
-                                                </dl>
-                                                <dl class="dlist-inline small">
-                                                    <dt>Color: </dt>
-                                                    <dd>Orange color</dd>
+                                                    <dt>Entity/Business Name: </dt>
+                                                    <dd>Datakraf Solution Sdn. Bhd.</dd>
                                                 </dl>
                                             </figcaption>
                                         </figure>
@@ -49,7 +45,7 @@ My Cart
                                             <small class="text-muted">(MYR5 each)</small>
                                         </div> <!-- price-wrap .// -->
                                     </td>
-                                    <td class="text-right">                                        
+                                    <td class="text-right">
                                         <a href="" class="btn btn-outline-danger"> × Remove</a>
                                     </td>
                                 </tr>
@@ -59,14 +55,10 @@ My Cart
                                             <div class="img-wrap"><img src="images/items/2.jpg"
                                                     class="img-thumbnail img-sm"></div>
                                             <figcaption class="media-body">
-                                                <h6 class="title text-truncate">Product name goes here </h6>
+                                                <h6 class="title text-truncate">CTC Certificate of Change of Name</h6>
                                                 <dl class="dlist-inline small">
-                                                    <dt>Size: </dt>
-                                                    <dd>XXL</dd>
-                                                </dl>
-                                                <dl class="dlist-inline small">
-                                                    <dt>Color: </dt>
-                                                    <dd>Orange color</dd>
+                                                    <dt>Entity/Business Name: </dt>
+                                                    <dd>Datakraf Solution Sdn. Bhd.</dd>
                                                 </dl>
                                             </figcaption>
                                         </figure>
@@ -81,7 +73,7 @@ My Cart
                                         </div> <!-- price-wrap .// -->
                                     </td>
                                     <td class="text-right">
-                                        
+
                                         <a href="" class="btn btn-outline-danger btn-round"> × Remove</a>
                                     </td>
                                 </tr>
@@ -91,14 +83,10 @@ My Cart
                                             <div class="img-wrap"><img src="images/items/3.jpg"
                                                     class="img-thumbnail img-sm"></div>
                                             <figcaption class="media-body">
-                                                <h6 class="title text-truncate">Product name goes here </h6>
+                                                <h6 class="title text-truncate">CTC Financial Historical Comparison</h6>
                                                 <dl class="dlist-inline small">
-                                                    <dt>Size: </dt>
-                                                    <dd>XXL</dd>
-                                                </dl>
-                                                <dl class="dlist-inline small">
-                                                    <dt>Color: </dt>
-                                                    <dd>Orange color</dd>
+                                                    <dt>Entity/Business Name: </dt>
+                                                    <dd>Datakraf Solution Sdn. Bhd.</dd>
                                                 </dl>
                                             </figcaption>
                                         </figure>
@@ -112,7 +100,7 @@ My Cart
                                             <small class="text-muted">(MYR15 each)</small>
                                         </div> <!-- price-wrap .// -->
                                     </td>
-                                    <td class="text-right">                                       
+                                    <td class="text-right">
                                         <a href="" class="btn btn-outline-danger btn-round"> × Remove</a>
                                     </td>
                                 </tr>
@@ -157,3 +145,4 @@ My Cart
     </section>
 </div>
 @endsection
+

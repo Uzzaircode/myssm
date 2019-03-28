@@ -42,12 +42,13 @@ MySSM - Home
     <div class="container">
         <header class="section-heading text-left">
             <h1 class="display-4">It's Easier With MySSM</h1>
-            <p class="display-4" style="font-size:2.0rem;">With our ecosystems of data and integrations - <br>you have a single platform to obtain valid business data.</p>
+            <p class="display-4" style="font-size:2.0rem;">With our ecosystems of data and integrations - <br>you have a
+                single platform to obtain valid business data.</p>
         </header><!-- sect-heading -->
     </div>
     <div class="pt-5"></div>
     <div class="pt-5"></div>
-    
+
     <div class="container">
         <div class="row">
             <aside class="col">
@@ -98,17 +99,57 @@ MySSM - Home
             </p>
         </header><!-- sect-heading -->
     </div>
-    <div class="pt-5"></div>
+    <div class="pt-3"></div>
     <div class="container">
         <div class="row">
             <div class="col">
+                <!-- <div class="card">
+                    <div class="card-body">
+                        <div class="row no-gutters">
+                            <div class="col">
+                                <div class="">
+                                    <div class="card-body text-center">
+                                        <img src="{{asset('images/services/change-of-name.svg')}}" alt=""
+                                            class="img-fluid">
+                                        <h5>Certificate of Change of Name</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="">
+                                    <div class="card-body text-center">
+                                        <img src="{{asset('images/services/audit-profile.svg')}}" alt=""
+                                            class="img-fluid">
+                                        <h5>Audit Firm Profile</h5>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="col">
+                                <div class="">
+                                    <div class="card-body text-center">
+
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="col">
+                                <div class="card">
+                                    <div class="card-body text-center">Hello</div>
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+                </div> -->
                 <ul class="list-unstyled services-list">
                     <li>
                         <h4>
                             Particular Of Company Secretary
                             <span><button class="service-button btn btn-primary">View Sample</button></span>
                         </h4>
-                        
+
                     </li>
                     <li>
                         <h4>
@@ -157,7 +198,7 @@ MySSM - Home
                             Certificates Of Conversion
                             <span><button class="service-button btn btn-primary">View Sample</button></span>
                         </h4>
-                    </li>                    
+                    </li>
                     <li>
                         <h4>
                             Particular Of Registered Address

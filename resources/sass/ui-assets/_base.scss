@@ -127,6 +127,19 @@ html {
     color: $myssm !important;
 }
 
-.theme-bg-color{
-    background-color:$myssm !important;
+.theme-bg-color {
+    background-color: $myssm !important;
+}
+
+.services-list li:not(:nth-child(7)) {
+    padding-bottom: 20px;
+}
+
+.services-list li h4:before {
+    background-image: url('../images/services/list-icon.svg');
+    background-size: 20px 20px;
+    display: inline-flex;
+    width: 20px;
+    height: 20px;
+    content: "";
 }

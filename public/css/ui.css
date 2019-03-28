@@ -175,6 +175,19 @@ html {
   background-color: #0f0c29 !important;
 }
 
+.services-list li:not(:nth-child(7)) {
+  padding-bottom: 20px;
+}
+
+.services-list li h4:before {
+  background-image: url(/images/list-icon.svg?224b2cb674322ad5eb90ca9e72c6b43b);
+  background-size: 20px 20px;
+  display: inline-flex;
+  width: 20px;
+  height: 20px;
+  content: "";
+}
+
 /* ================== HELPERS  =================== */
 
 a:hover {

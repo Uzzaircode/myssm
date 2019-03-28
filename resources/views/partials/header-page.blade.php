@@ -2,7 +2,7 @@
     <section class="header-main">
         <nav class="navbar navbar-landing navbar-expand-sm header-background">
             <div class="container">
-                <a class="navbar-brand mr-auto" href="#">
+                <a class="navbar-brand mr-auto" href="{{route('home')}}">
                     <img class="logo" src="{{asset('images/myssm-logo.png')}}"></a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar1">
                     <span class="navbar-toggler-icon"></span>
@@ -20,11 +20,11 @@
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link page-scroll text-white" href="#more">My Account</a>
+                            <a class="nav-link page-scroll text-white" href="{{route('profile')}}">My Account</a>
                         </li>
 
                         <li class="nav-item">
-                            <a href="#" id="cart" class="nav-link">
+                            <a href="{{route('cart')}}" id="cart" class="nav-link">
                                 My Cart <span class="badge">3</span>
                             </a>
                         </li>
