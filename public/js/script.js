@@ -112,13 +112,13 @@ $(document).ready(function () {
     $('.service-button').hide();
     $('.service-button').css('background', bg);
 
-    $('.services-list > li').hover(function () {
-        $(this).css('cursor', 'pointer');
-        $(this).find('.service-button').fadeIn('slow');
-    });
-    $('.services-list > li').mouseleave(function () {
-        $(this).find('.service-button').hide();
-    });
+    // $('.services-list > li').hover(function () {
+    //     $(this).css('cursor', 'pointer');
+    //     $(this).find('.service-button').fadeIn('slow');
+    // });
+    // $('.services-list > li').mouseleave(function () {
+    //     $(this).find('.service-button').hide();
+    // });
 
     $('.shopping-cart').hide();
 
