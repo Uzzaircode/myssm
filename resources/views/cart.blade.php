@@ -16,22 +16,26 @@ My Cart
                             <thead class="text-muted">
                                 <tr>
                                     <th scope="col">Product</th>
-                                    <th scope="col" width="120">Quantity</th>
-                                    <th scope="col" width="120">Price</th>
-                                    <th scope="col" class="text-right" width="200">Action</th>
+                                    <th scope="col" width="50px">Quantity</th>
+                                    <th scope="col">Price (MYR)</th>
+                                    <th scope="col">Service Charge (MYR)</th>
+                                    <th scope="col">CTC Service Charge (MYR)</th>
+                                    <th scope="col" class="text-right">Action</th>
                                 </tr>
                             </thead>
                             <tbody>
                                 <tr>
                                     <td>
                                         <figure class="media">
-                                            <div class="img-wrap"><img src="images/items/1.jpg"
-                                                    class="img-thumbnail img-sm"></div>
                                             <figcaption class="media-body">
                                                 <h6 class="title text-truncate">Business Profile CTC </h6>
                                                 <dl class="dlist-inline small">
                                                     <dt>Entity/Business Name: </dt>
                                                     <dd>Datakraf Solution Sdn. Bhd.</dd>
+                                                </dl>
+                                                <dl class="dlist-inline small">
+                                                    <dt>Language: </dt>
+                                                    <dd>English</dd>
                                                 </dl>
                                             </figcaption>
                                         </figure>
@@ -41,8 +45,20 @@ My Cart
                                     </td>
                                     <td>
                                         <div class="price-wrap">
-                                            <var class="price">MYR 145</var>
-                                            <small class="text-muted">(MYR5 each)</small>
+                                            <var class="price">15.00</var>
+
+                                        </div> <!-- price-wrap .// -->
+                                    </td>
+                                    <td>
+                                        <div class="price-wrap">
+                                            <var class="price">5.00</var>
+
+                                        </div> <!-- price-wrap .// -->
+                                    </td>
+                                    <td>
+                                        <div class="price-wrap">
+                                            <var class="price">5.00</var>
+
                                         </div> <!-- price-wrap .// -->
                                     </td>
                                     <td class="text-right">
@@ -52,13 +68,15 @@ My Cart
                                 <tr>
                                     <td>
                                         <figure class="media">
-                                            <div class="img-wrap"><img src="images/items/2.jpg"
-                                                    class="img-thumbnail img-sm"></div>
                                             <figcaption class="media-body">
                                                 <h6 class="title text-truncate">CTC Certificate of Change of Name</h6>
                                                 <dl class="dlist-inline small">
                                                     <dt>Entity/Business Name: </dt>
                                                     <dd>Datakraf Solution Sdn. Bhd.</dd>
+                                                </dl>
+                                                <dl class="dlist-inline small">
+                                                    <dt>Language: </dt>
+                                                    <dd>English</dd>
                                                 </dl>
                                             </figcaption>
                                         </figure>
@@ -68,8 +86,20 @@ My Cart
                                     </td>
                                     <td>
                                         <div class="price-wrap">
-                                            <var class="price">MYR 35</var>
-                                            <small class="text-muted">(MYR10 each)</small>
+                                            <var class="price">15.00</var>
+
+                                        </div> <!-- price-wrap .// -->
+                                    </td>
+                                    <td>
+                                        <div class="price-wrap">
+                                            <var class="price">5.00</var>
+
+                                        </div> <!-- price-wrap .// -->
+                                    </td>
+                                    <td>
+                                        <div class="price-wrap">
+                                            <var class="price">5.00</var>
+
                                         </div> <!-- price-wrap .// -->
                                     </td>
                                     <td class="text-right">
@@ -80,13 +110,15 @@ My Cart
                                 <tr>
                                     <td>
                                         <figure class="media">
-                                            <div class="img-wrap"><img src="images/items/3.jpg"
-                                                    class="img-thumbnail img-sm"></div>
                                             <figcaption class="media-body">
                                                 <h6 class="title text-truncate">CTC Financial Historical Comparison</h6>
                                                 <dl class="dlist-inline small">
                                                     <dt>Entity/Business Name: </dt>
                                                     <dd>Datakraf Solution Sdn. Bhd.</dd>
+                                                </dl>
+                                                <dl class="dlist-inline small">
+                                                    <dt>Language: </dt>
+                                                    <dd>English</dd>
                                                 </dl>
                                             </figcaption>
                                         </figure>
@@ -96,8 +128,20 @@ My Cart
                                     </td>
                                     <td>
                                         <div class="price-wrap">
-                                            <var class="price">MYR 45</var>
-                                            <small class="text-muted">(MYR15 each)</small>
+                                            <var class="price">15.00</var>
+
+                                        </div> <!-- price-wrap .// -->
+                                    </td>
+                                    <td>
+                                        <div class="price-wrap">
+                                            <var class="price">5.00</var>
+
+                                        </div> <!-- price-wrap .// -->
+                                    </td>
+                                    <td>
+                                        <div class="price-wrap">
+                                            <var class="price">5.00</var>
+
                                         </div> <!-- price-wrap .// -->
                                     </td>
                                     <td class="text-right">
@@ -111,32 +155,43 @@ My Cart
                 </main> <!-- col.// -->
                 <aside class="col-sm-3">
                     <dl class="dlist-align">
-                        <dt>Total price: </dt>
-                        <dd class="text-right">MYR 568</dd>
+                        <div class="form-group">
+                            <label for="">Payment Method</label>
+                            <select name="" id="" class="form-control">
+                                <option value="">Pay By Credit Card</option>
+                                <option value="">Online Banking</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="">Online Banking</label>
+                            <select name="" id="" class="form-control">
+                                <option value="">Maybank2U</option>
+                                <option value="">CIMB Click</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="">Billing Name</label>
+                            <input type="text" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <label for="">Your E-mail Address</label>
+                            <input type="text" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <label for="">Customer Ref.</label>
+                            <input type="text" class="form-control">
+                        </div>
                     </dl>
                     <dl class="dlist-align">
-                        <dt>Discount:</dt>
-                        <dd class="text-right">MYR 658</dd>
+                        <dt>Total price: </dt>
+                        <dd class="text-right">MYR 568</dd>
                     </dl>
                     <dl class="dlist-align h4">
                         <dt>Total:</dt>
                         <dd class="text-right"><strong>MYR 1,650</strong></dd>
                     </dl>
                     <hr>
-                    <figure class="itemside mb-3">
-                        <aside class="aside"><img src="images/icons/pay-visa.png"></aside>
-                        <div class="text-wrap small text-muted">
-                            Pay 84.78 AED ( Save 14.97 AED )
-                            By using ADCB Cards
-                        </div>
-                    </figure>
-                    <figure class="itemside mb-3">
-                        <aside class="aside"> <img src="images/icons/pay-mastercard.png"> </aside>
-                        <div class="text-wrap small text-muted">
-                            Pay by MasterCard and Save 40%. <br>
-                            Lorem ipsum dolor
-                        </div>
-                    </figure>
+                    <button class="btn btn-block btn-warning font-weight-bold">Proceed To Checkout</button>
 
                 </aside> <!-- col.// -->
             </div>
@@ -145,4 +200,3 @@ My Cart
     </section>
 </div>
 @endsection
-

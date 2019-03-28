@@ -147,86 +147,85 @@ MySSM - Home
                     <li>
                         <h4>
                             Particular Of Company Secretary
-                            <span><button class="service-button btn btn-primary">View Sample</button></span>
+
                         </h4>
 
                     </li>
                     <li>
                         <h4>
                             Audit Firm Profile
-                            <span><button class="service-button btn btn-primary">View Sample</button></span>
+
                         </h4>
                     </li>
                     <li>
                         <h4>
                             Company Profile
-                            <span><button class="service-button btn btn-primary">View Sample</button></span>
+
                         </h4>
                     </li>
                     <li>
                         <h4>
                             Business Profile
-                            <span><button class="service-button btn btn-primary">View Sample</button></span>
+
                         </h4>
                     </li>
                     <li>
                         <h4>
                             Certificates Of Incorporation/Registration
-                            <span><button class="service-button btn btn-primary">View Sample</button></span>
+
                         </h4>
                     </li>
                     <li>
                         <h4>
                             Business Certificates
-                            <span><button class="service-button btn btn-primary">View Sample</button></span>
+
                         </h4>
                     </li>
                     <li>
                         <h4>
                             Document Images
-                            <span><button class="service-button btn btn-primary">View Sample</button></span>
+
                         </h4>
                     </li>
                     <li>
                         <h4>
                             Certificate Of Change Of Names
-                            <span><button class="service-button btn btn-primary">View Sample</button></span>
+
                         </h4>
                     </li>
                     <li>
                         <h4>
                             Certificates Of Conversion
-                            <span><button class="service-button btn btn-primary">View Sample</button></span>
+
                         </h4>
                     </li>
                     <li>
                         <h4>
                             Particular Of Registered Address
-                            <span><button class="service-button btn btn-primary">View Sample</button></span>
+
                         </h4>
                     </li>
                     <li>
                         <h4>
                             Particular Of Directors/Officers
-                            <span><button class="service-button btn btn-primary">View Sample</button></span>
+
                         </h4>
                     </li>
                     <li>
                         <h4>
                             Financial Comparison
-                            <span><button class="service-button btn btn-primary">View Sample</button></span>
+
                         </h4>
                     </li>
                     <li>
                         <h4>
-                            Particular Of Shareholders
-                            <span><button class="service-button btn">View Sample</button></span>
+                            Particular Of Shareholders                            
                         </h4>
                     </li>
                     <li>
                         <h4>
                             Particular Of Share Capital
-                            <span><button class="service-button btn btn-primary">View Sample</button></span>
+
                         </h4>
                     </li>
                 </ul>

@@ -23,8 +23,7 @@
                     <h5 class="title">About</h5>
                     <ul class="list-unstyled">
                         <li> <a href="#"> How to buy </a></li>
-                        <li> <a href="#"> Delivery and payment </a></li>
-                        <li> <a href="#"> Partnership </a></li>
+                        <li> <a href="#"> Delivery and payment </a></li>                        
                     </ul>
                 </aside>
                 <aside class="col-sm-3">

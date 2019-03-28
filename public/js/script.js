@@ -106,29 +106,7 @@ $(document).ready(function () {
             });
 
         }); // each end.//
-    } // end if
-    let bg = "background: #0f0c29 !important;background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29) !important; background: linear-gradient(to right, #24243e, #302b63, #0f0c29) !important;"
-
-    $('.service-button').hide();
-    $('.service-button').css('background', bg);
-
-    // $('.services-list > li').hover(function () {
-    //     $(this).css('cursor', 'pointer');
-    //     $(this).find('.service-button').fadeIn('slow');
-    // });
-    // $('.services-list > li').mouseleave(function () {
-    //     $(this).find('.service-button').hide();
-    // });
-
-    $('.shopping-cart').hide();
-
-    $("#cart").on("click", function () {
-        $(".shopping-cart").fadeToggle("fast");
-    });
-
-    $("#close-cart").on('click',function(){
-        $('.shopping-cart').fadeOut('fast');
-    });
+    } // end if    
 
 });
 // jquery end
