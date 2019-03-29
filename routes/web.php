@@ -19,3 +19,7 @@ Route::get('about-us', function () {
 Route::get('products', function () {
     return view('products');
 })->name('products');
+
+Route::get('historical-financial', function () {
+    return view('historical-financial');
+})->name('historical-financial');
