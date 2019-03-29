@@ -15,3 +15,7 @@ Route::get('profile', function () {
 Route::get('about-us', function () {
     return view('about-us');
 })->name('about-us');
+
+Route::get('products', function () {
+    return view('products');
+})->name('products');
