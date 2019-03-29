@@ -191,7 +191,7 @@ html {
 .nav-pills .nav-link.active,
 .nav-pills .show > .nav-link {
   color: #212529 !important;
-  background-color: #d39e00 !important;
+  background-color: #ffc107 !important;
 }
 
 /* ================== HELPERS  =================== */

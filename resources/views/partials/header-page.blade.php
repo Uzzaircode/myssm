@@ -10,7 +10,7 @@
                 <div class="collapse navbar-collapse" id="navbar1">
                     <ul class="navbar-nav ml-auto">
                         <li class="nav-item">
-                            <a class="nav-link page-scroll text-white" href="#intro">About Us</a>
+                            <a class="nav-link page-scroll text-white" href="{{route('about-us')}}">About Us</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link page-scroll text-white" href="#features">FAQ</a>
