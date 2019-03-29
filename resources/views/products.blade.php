@@ -1,5 +1,7 @@
 @extends('pages')
-
+@section('page-title')
+    Business Details - Datakraf Solution Sdn. Bhd.
+@endsection
 @section('content')
 <section class="section-content padding-page-content" style="padding-bottom:100px !important;">
     <div class="container">

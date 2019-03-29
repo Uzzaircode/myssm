@@ -198,6 +198,10 @@ html {
   background-color: #ffc107 !important;
 }
 
+.ctc-checkbox {
+  margin-right: 5px;
+}
+
 /* ================== HELPERS  =================== */
 
 a:hover {
