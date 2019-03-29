@@ -16,8 +16,8 @@ MySSM - Home
                             aria-label="Text input with dropdown button"
                             placeholder="Search for Company, Business or Audit Firm">
                         <div class="input-group-append">
-                            <button class="btn btn-warning dropdown-toggle font-weight-bold" type="button" data-toggle="dropdown"
-                                aria-haspopup="true" aria-expanded="false">All
+                            <button class="btn btn-warning dropdown-toggle font-weight-bold" type="button"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">All
                                 Entities</button>
                             <div class="dropdown-menu">
                                 <a class="dropdown-item" href="#">Company</a>
@@ -90,11 +90,11 @@ MySSM - Home
         </div> <!-- row.// -->
     </div>
 </section>
-<section id="features" class="section-features padding-y-lg">
+<section id="features" class="section-features padding-y-lg header-background">
     <div class="container">
         <header class="section-heading text-left">
-            <h1 class="display-4">We Offer Wide Range Of Services</h1>
-            <p class="display-4" style="font-size:2.0rem;">
+            <h1 class="display-4 text-white">We Offer Wide Range Of Services</h1>
+            <p class="display-4 text-warning" style="font-size:2.0rem;">
                 Your one stop solution for business datasets.
             </p>
         </header><!-- sect-heading -->
@@ -103,132 +103,105 @@ MySSM - Home
     <div class="container">
         <div class="row">
             <div class="col">
-                <!-- <div class="card">
-                    <div class="card-body">
-                        <div class="row no-gutters">
-                            <div class="col">
-                                <div class="">
-                                    <div class="card-body text-center">
-                                        <img src="{{asset('images/services/change-of-name.svg')}}" alt=""
-                                            class="img-fluid">
-                                        <h5>Certificate of Change of Name</h5>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col">
-                                <div class="">
-                                    <div class="card-body text-center">
-                                        <img src="{{asset('images/services/audit-profile.svg')}}" alt=""
-                                            class="img-fluid">
-                                        <h5>Audit Firm Profile</h5>
-                                    </div>
-                                </div>
-
-                            </div>
-                            <div class="col">
-                                <div class="">
-                                    <div class="card-body text-center">
-
-                                    </div>
-                                </div>
-
-                            </div>
-                            <div class="col">
-                                <div class="card">
-                                    <div class="card-body text-center">Hello</div>
-                                </div>
-
-                            </div>
-
-                        </div>
-                    </div>
-                </div> -->
-                <ul class="list-unstyled services-list">
+                <ul class="list-unstyled services-list text-white">
                     <li>
-                        <h4>
+                        <p>
                             Particular Of Company Secretary
-
-                        </h4>
-
+                        </p>
                     </li>
                     <li>
-                        <h4>
+                        <p>
                             Audit Firm Profile
-
-                        </h4>
+                        </p>
                     </li>
                     <li>
-                        <h4>
+                        <p>
                             Company Profile
 
-                        </h4>
+                        </p>
                     </li>
                     <li>
-                        <h4>
+                        <p>
                             Business Profile
 
-                        </h4>
+                        </p>
                     </li>
                     <li>
-                        <h4>
+                        <p>
                             Certificates Of Incorporation/Registration
 
-                        </h4>
+                        </p>
                     </li>
                     <li>
-                        <h4>
+                        <p>
                             Business Certificates
 
-                        </h4>
+                        </p>
                     </li>
                     <li>
-                        <h4>
+                        <p>
                             Document Images
 
-                        </h4>
+                        </p>
                     </li>
                     <li>
-                        <h4>
+                        <p>
                             Certificate Of Change Of Names
 
-                        </h4>
+                        </p>
                     </li>
                     <li>
-                        <h4>
+                        <p>
                             Certificates Of Conversion
 
-                        </h4>
+                        </p>
                     </li>
                     <li>
-                        <h4>
+                        <p>
                             Particular Of Registered Address
 
-                        </h4>
+                        </p>
                     </li>
                     <li>
-                        <h4>
+                        <p>
                             Particular Of Directors/Officers
 
-                        </h4>
+                        </p>
                     </li>
                     <li>
-                        <h4>
+                        <p>
                             Financial Comparison
 
-                        </h4>
+                        </p>
                     </li>
                     <li>
-                        <h4>
-                            Particular Of Shareholders                            
-                        </h4>
+                        <p>
+                            Particular Of Shareholders
+                        </p>
                     </li>
                     <li>
-                        <h4>
+                        <p>
                             Particular Of Share Capital
 
-                        </h4>
+                        </p>
                     </li>
                 </ul>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="section-content bg-white" style="padding:100px 0">
+    <div class="container">
+        <div class="row mx-auto my-auto">
+            <div class="col-9">
+                <p class="display-4" style="font-size:2.0rem !important;">
+                    Let's talk about how we can help you to obtain better data.
+                </p>
+            </div>
+            <div class="col-3">
+                <button class="btn btn-warning btn-lg" style="width:100%">
+                    Contact Us
+                </button>
             </div>
         </div>
     </div>

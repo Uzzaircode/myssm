@@ -15,7 +15,8 @@
                         <a class="nav-link page-scroll text-white" href="#features">FAQ</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link page-scroll text-white" href="#content">Contact Us</a>
+                        <a class="nav-link page-scroll text-white" data-toggle="modal"
+                            data-target="#exampleModal" style="cursor:pointer">Contact Us</a>
                     </li>
 
                     <li class="nav-item">
@@ -25,11 +26,11 @@
                     <li class="nav-item">
                         <a href="{{route('cart')}}" id="cart" class="nav-link">
                             My Cart <span class="badge">3</span>
-                        </a>                       
+                        </a>
                     </li>
                 </ul>
             </div>
-        </div> <!-- container //  -->           
-    </nav>   
+        </div> <!-- container //  -->
+    </nav>
 
 </header> <!-- section-header.// -->

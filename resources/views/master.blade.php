@@ -12,17 +12,29 @@
     <!-- custom style -->
     <link href="{{asset('css/ui.css')}}" rel="stylesheet" type="text/css" />
     <link href="{{asset('css/responsive.css')}}" rel="stylesheet" media="only screen and (max-width: 1200px)" />
-    <!-- custom javascript -->    
+    <style>
+        .modal-full {
+            min-width: 100%;
+            margin: 0;
+        }
+
+        .modal-full .modal-content {
+            min-height: 100vh;
+        }
+
+    </style>
+    <!-- custom javascript -->
 </head>
 
 <body class="relative">
     <!-- ========================= HEADER ========================= -->
     @include('partials.header')
 
-    @yield('content')      
+    @yield('content')
     <!-- ========================= FOOTER ========================= -->
     @include('partials.footer')
     <!-- ========================= SCRIPTS ========================= -->
+    
     <script src="{{asset('js/jquery-2.0.0.min.js')}}" type="text/javascript"></script>
     <script src="{{asset('js/bootstrap.bundle.min.js')}}" type="text/javascript"></script>
     <script src="{{asset('plugins/fancybox/fancybox.min.js')}}" type="text/javascript"></script>
