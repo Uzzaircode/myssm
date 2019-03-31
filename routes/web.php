@@ -31,3 +31,7 @@ Route::get('document-image', function () {
 Route::get('company-watch', function () {
     return view('company-watch');
 })->name('company-watch');
+
+Route::get('company-charges', function () {
+    return view('company-charges');
+})->name('company-charges');

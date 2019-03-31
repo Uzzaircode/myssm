@@ -202,6 +202,20 @@ html {
   margin-right: 5px;
 }
 
+.rotate {
+  -webkit-animation: rotation 5s infinite linear;
+}
+
+@-webkit-keyframes rotation {
+  from {
+    -webkit-transform: rotate(0deg);
+  }
+
+  to {
+    -webkit-transform: rotate(359deg);
+  }
+}
+
 /* ================== HELPERS  =================== */
 
 a:hover {
