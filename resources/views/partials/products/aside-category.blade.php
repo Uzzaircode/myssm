@@ -8,7 +8,7 @@
                 <ul class="list-unstyled list-lg">
                     <li><a href="{{route('products')}}">Profile </a></li>
                     <li><a href="{{route('historical-financial')}}">Financial Historical Comparison</a> </li>
-                    <li><a href="#">Document & Form Images</a> </li>
+                    <li><a href="{{route('document-image')}}">Document & Form Images</a> </li>
                     <li><a href="#">Company Watch</a></li>
                     <li><a href="#">Company Charges</a></li>
                 </ul>

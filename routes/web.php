@@ -23,3 +23,7 @@ Route::get('products', function () {
 Route::get('historical-financial', function () {
     return view('historical-financial');
 })->name('historical-financial');
+
+Route::get('document-image', function () {
+    return view('document-image');
+})->name('document-image');
