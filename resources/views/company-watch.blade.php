@@ -26,9 +26,11 @@ Company Watch - Datakraf Solution Sdn. Bhd.
             </aside>
             <main class="col-9">
                 <div class="d-flex align-items-center flex-column justify-content-center">
-
-                    <img src="{{asset('images/database.svg')}}" alt="" width="250px" class="rotate m-5">
-                    <h5>Sorry, no results found in our database.</h5>
+                    
+                    <img src="{{asset('images/database.svg')}}" alt="" width="250px" class="shake m-5">
+                    <h4 class="noresult">Sorry, no results found in our database.</h4>
+                    <h4 class="noresult">Sorry, no results found in our database.</h4>
+                    <h4 class="noresult">Sorry, no results found in our database.</h4>
 
                 </div>
             </main>

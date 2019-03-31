@@ -12,8 +12,8 @@ About Us
                 </h1>
                 <p class="text-center font-title">
                     We've built the only user analytics platform that lets everyone in your organization
-                    deeply understand each user. Get instant answers and automatic insights so
-                    you can take intelligent actions that improve your customer experience.
+                    deeply understand each business entity. Get instant answers and insights so
+                    you can take intelligent actions that improve your business experience.
                 </p>
             </div>
         </div>
@@ -36,7 +36,6 @@ About Us
                         <div id="elem3" class="col-9">
                             <h5 class="float">Nearly 7 Million Customers Countrywide</h5>
                         </div>
-
                     </div>
                     <div class="mt-3"></div>
                     <div class="row justify-content-end">

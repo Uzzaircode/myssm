@@ -3,7 +3,6 @@
 @section('page-title')
 Company Charges - Datakraf Solution Sdn. Bhd.
 @endsection
-
 @section('content')
 <section class="section-content padding-page-content" style="padding-bottom:100px !important;">
     <div class="container">
@@ -27,8 +26,10 @@ Company Charges - Datakraf Solution Sdn. Bhd.
             <main class="col-9">
                 <div class="d-flex align-items-center flex-column justify-content-center">
 
-                    <img src="{{asset('images/database.svg')}}" alt="" width="250px" class="rotate m-5">
-                    <h5>Sorry, no results found in our database.</h5>
+                    <img src="{{asset('images/database.svg')}}" alt="" width="250px" class="shake m-5">
+                    <h4 class="noresult">Sorry, no results found in our database.</h4>
+                    <h4 class="noresult">Sorry, no results found in our database.</h4>
+                    <h4 class="noresult">Sorry, no results found in our database.</h4>
 
                 </div>
             </main>
