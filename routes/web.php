@@ -27,3 +27,7 @@ Route::get('historical-financial', function () {
 Route::get('document-image', function () {
     return view('document-image');
 })->name('document-image');
+
+Route::get('company-watch', function () {
+    return view('company-watch');
+})->name('company-watch');
