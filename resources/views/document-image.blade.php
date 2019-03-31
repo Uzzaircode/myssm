@@ -29,18 +29,27 @@ Business Details - Datakraf Solution Sdn. Bhd.
                 @include('partials.products.aside-category')
             </aside>
             <main class="col-9">
+
                 <div class="container">
-                    <table class="table table-bordered table-hover" id="datatable">
-                        <thead>
-                            <tr>
-                                <th>#</th>
-                                <th>Document Type</th>
-                                <th>Document Description</th>
-                                <th>Document Date</th>
-                                <th>Total of Pages</th>
-                            </tr>
-                        </thead>
-                    </table>
+                    <div class="row">
+                        <div class="text-right">
+                            <button class="btn btn-warning font-weight-bold text-right">Add to cart</button>
+                        </div>                        
+                    </div>
+                    <div class="mb-3"></div>
+                    <div class="row">
+                        <table class="table table-bordered table-hover" id="datatable">
+                            <thead>
+                                <tr>
+                                    <th>#</th>
+                                    <th>Document Type</th>
+                                    <th>Document Description</th>
+                                    <th>Document Date</th>
+                                    <th>Total of Pages</th>
+                                </tr>
+                            </thead>
+                        </table>
+                    </div>
                 </div>
             </main>
         </div>
@@ -52,7 +61,7 @@ Business Details - Datakraf Solution Sdn. Bhd.
 <script src="//cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js"></script>
 <script type="text/javascript">
     $(document).ready(function () {
-        $('#datatable').DataTable({           
+        $('#datatable').DataTable({
             "ajax": "{{asset('data/data.txt')}}"
         });
     });
