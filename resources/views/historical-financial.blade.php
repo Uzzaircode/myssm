@@ -30,18 +30,27 @@ Business Details - Datakraf Solution Sdn. Bhd.
                                 <div class="card-header">
                                     <h6 class="title">Financial History Comparison</h6>
                                 </div>
+                                @php
+                                $currently_selected = 2010;
+                                $earliest_year = 2010;
+                                $latest_year = date('Y');
+                                @endphp
                                 <div class="card-body">
                                     <form class="">
                                         <div class="form-group">
                                             <label for="">Year</label>
                                             <select name="" id="" class="form-control">
-                                                <option value="">1</option>
+                                                @foreach(range($earliest_year, $latest_year) as $i)
+                                                <option value="">{{$i}}</option>
+                                                @endforeach
                                             </select>
                                         </div>
                                         <div class="form-group">
-                                            <label for="">Year</label>
+                                            <label for="">With Year</label>
                                             <select name="" id="" class="form-control">
-                                                <option value="">1</option>
+                                                @foreach(range($earliest_year, $latest_year) as $i)
+                                                <option value="">{{$i}}</option>
+                                                @endforeach
                                             </select>
                                         </div>
                                         <div class="form-check">
