@@ -8,7 +8,7 @@
         <div class="row">
             <div class="col">
                 <header class="section-heading">
-                    <h2>Business Details</h2>
+                    <h2>Business Details > Profile</h2>
                 </header>
             </div>
         </div>

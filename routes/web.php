@@ -16,9 +16,9 @@ Route::get('about-us', function () {
     return view('about-us');
 })->name('about-us');
 
-Route::get('products', function () {
+Route::get('business-profile', function () {
     return view('products');
-})->name('products');
+})->name('business-profile');
 
 Route::get('historical-financial', function () {
     return view('historical-financial');
@@ -35,3 +35,12 @@ Route::get('company-watch', function () {
 Route::get('company-charges', function () {
     return view('company-charges');
 })->name('company-charges');
+
+Route::get('login', function () {
+    return view('login');
+})->name('login');
+
+
+Route::get('register', function () {
+    return view('register');
+})->name('register');

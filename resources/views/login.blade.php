@@ -1,41 +1,42 @@
-@extends('master')
-
+@extends('pages')
+@section('page-title')
+MySSM - Login
+@endsection
 @section('content')
-<div class="container">
-    <div class="row">
-        <div class="col-lg-3 col-md-2"></div>
-        <div class="col-lg-6 col-md-8 login-box">
-            <div class="col-lg-12 login-key">
-                <i class="fa fa-key" aria-hidden="true"></i>
+<div class="container padding-page-content">
+    <div class="row justify-content-center">
+        <div class="col-5">
+            <div class="text-center">
+                <img src="{{asset('images/login.svg')}}" alt="">
             </div>
-            <div class="col-lg-12 login-title">
-                ADMIN PANEL
-            </div>
-
-            <div class="col-lg-12 login-form">
-                <div class="col-lg-12 login-form">
-                    <form>
-                        <div class="form-group">
-                            <label class="form-control-label">USERNAME</label>
-                            <input type="text" class="form-control">
-                        </div>
-                        <div class="form-group">
-                            <label class="form-control-label">PASSWORD</label>
-                            <input type="password" class="form-control" i>
-                        </div>
-
-                        <div class="col-lg-12 loginbttm">
-                            <div class="col-lg-6 login-btm login-text">
-                                <!-- Error Message -->
-                            </div>
-                            <div class="col-lg-6 login-btm login-button">
-                                <button type="submit" class="btn btn-outline-primary">LOGIN</button>
-                            </div>
-                        </div>
-                    </form>
+        </div>
+        <div class="col-5">
+            <h4 class="text-left display-3">Welcome</h4>
+            <p class="lead">Please enter your e-mail address and password to sign in.</p>
+            <div class="mt-5"></div>
+            <form>
+                <div class="form-group">
+                    <label class="form-control-label">E-mail Address</label>
+                    <input type="text" class="form-control">
                 </div>
-            </div>
-            <div class="col-lg-3 col-md-2"></div>
+                <div class="form-group">
+                    <label class="form-control-label">Password</label>
+                    <input type="password" class="form-control" i>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                    <label class="form-check-label" for="defaultCheck1">
+                        Remember me
+                    </label>
+                </div>
+                <div class="mt-3"></div>
+                <div class="form-group">
+                    <button type="submit" class="btn btn-warning font-weight-bold btn-lg btn-block">Sign In</button>
+                    <button type="submit" class="btn theme-bg-color font-weight-bold text-white btn-lg btn-block">Sign Up</button>
+                </div>
+            </form>
         </div>
     </div>
-    @endsection
+</div>
+
+@endsection

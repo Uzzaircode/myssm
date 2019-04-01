@@ -13,10 +13,10 @@
                 <aside class="col-sm-3  col-md-3 white">
                     <h5 class="title">My Account</h5>
                     <ul class="list-unstyled">
-                        <li> <a href="#"> Login </a></li>
-                        <li> <a href="#"> Register </a></li>
-                        <li> <a href="#"> Account Setting </a></li>
-                        <li> <a href="#"> My Cart </a></li>
+                        <li> <a href="{{route('login')}}"> Login </a></li>
+                        <li> <a href="{{route('register')}}"> Register </a></li>
+                        <li> <a href="{{route('profile')}}"> Account Setting </a></li>
+                        <li> <a href="{{route('cart')}}"> My Cart </a></li>
                     </ul>
                 </aside>
                 <aside class="col-sm-3  col-md-3 white">
