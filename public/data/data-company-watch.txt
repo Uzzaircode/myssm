@@ -1,0 +1,16 @@
+{
+    "data": [
+        [
+            "1",
+            "ABC (M) Sdn. Bhd.",                  
+            "<a href='/abc'>View</a>"
+
+        ],
+        [
+            "2",
+            "Jelita Sdn. Bhd.",            
+            "<a href='#'>View</a>"
+
+        ]        
+    ]
+}

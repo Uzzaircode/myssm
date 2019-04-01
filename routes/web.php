@@ -44,3 +44,7 @@ Route::get('login', function () {
 Route::get('register', function () {
     return view('register');
 })->name('register');
+
+Route::get('abc', function () {
+    return view('abc');
+})->name('abc');

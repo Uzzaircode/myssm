@@ -61,10 +61,8 @@ Company Watch - Datakraf Solution Sdn. Bhd.
                                     <thead>
                                         <tr>
                                             <th>#</th>
-                                            <th>Document Type</th>
-                                            <th>Document Description</th>
-                                            <th>Document Date</th>
-                                            <th>Total of Pages</th>
+                                            <th>Business Name/Entity</th>
+                                            <th>Actions</th>               
                                         </tr>
                                     </thead>
                                 </table>
@@ -84,7 +82,7 @@ Company Watch - Datakraf Solution Sdn. Bhd.
 <script type="text/javascript">
     $(document).ready(function () {
         $('#datatable').DataTable({
-            "ajax": "{{asset('data/data.txt')}}"
+            "ajax": "{{asset('data/data-company-watch.txt')}}"
         });
     });
 

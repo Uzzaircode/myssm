@@ -11,8 +11,8 @@ MySSM - Login
             </div>
         </div>
         <div class="col-5">
-            <h4 class="text-left display-3">Welcome</h4>
-            <p class="lead">Please enter your e-mail address and password to sign in.</p>
+            <h4 class="text-left display-3">Sign Up</h4>
+            <p class="lead">You're just one step away from actionable insights.</p>
             <div class="mt-5"></div>
             <form>
                 <div class="form-row">
