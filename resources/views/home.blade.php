@@ -1,4 +1,7 @@
 @extends('master')
+@section('page-css')
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-typeahead/2.10.6/jquery.typeahead.min.css" />
+@endsection
 @section('page-title')
 MySSM - Home
 @endsection
@@ -206,4 +209,7 @@ MySSM - Home
         </div>
     </div>
 </section>
+@endsection
+@section('page-js')
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-typeahead/2.10.6/jquery.typeahead.min.js"></script>
 @endsection
