@@ -3,12 +3,12 @@
             <div class="col mb-3">
                 <label for="validationDefault01">First Name</label>
                 <input type="text" class="form-control" id="validationDefault01"
-                    placeholder="First name" value="" required>
+                    placeholder="" value="" required>
             </div>
             <div class="col mb-3">
                 <label for="validationDefault02">Last name</label>
                 <input type="text" class="form-control" id="validationDefault02"
-                    placeholder="Last name" value="" required>
+                    placeholder="" value="" required>
             </div>
         </div>
         <div class="form-row">
