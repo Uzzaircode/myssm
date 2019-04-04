@@ -40,7 +40,8 @@ MySSM - Login
                 <div class="col">
                     <div class="form-group">
                         <p class="display-4" style="font-size: 1.2rem">Or you can sign in with</p>
-                        <a href="#" class="icon-button twitter"><img src="{{asset('images/socials/twitter.svg')}}"></a>
+                        <a href="#" class="icon-button twitter">
+                            <img src="{{asset('images/socials/twitter.svg')}}"></a>
                         <a href="#" class="icon-button facebook"><img
                                 src="{{asset('images/socials/facebook.svg')}}"></a>
                         <a href="#" class="icon-button google-plus"><img

@@ -3,24 +3,24 @@
             <div class="col mb-3">
                 <label for="validationDefault01">First Name</label>
                 <input type="text" class="form-control" id="validationDefault01"
-                    placeholder="First name" value="Muhammad Uzzair" required>
+                    placeholder="First name" value="" required>
             </div>
             <div class="col mb-3">
                 <label for="validationDefault02">Last name</label>
                 <input type="text" class="form-control" id="validationDefault02"
-                    placeholder="Last name" value="Baharudin" required>
+                    placeholder="Last name" value="" required>
             </div>
         </div>
         <div class="form-row">
             <div class="col mb-3">
                 <label for="validationDefault01">E-mail Address</label>
                 <input type="text" class="form-control" id="validationDefault01"
-                    placeholder="" value="uzzairwork@gmail.com" required>
+                    placeholder="" value="" required>
             </div>
             <div class="col mb-3">
                 <label for="validationDefault02">Username</label>
                 <input type="text" class="form-control" id="validationDefault02"
-                    placeholder="" value="UzzairBaharudin" required>
+                    placeholder="" value="" required>
             </div>
         </div>
         <div class="form-row">
