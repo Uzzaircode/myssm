@@ -1,6 +1,19 @@
 @extends('master')
 @section('page-css')
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-typeahead/2.10.6/jquery.typeahead.min.css" />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/typeahead.js-bootstrap4-css@1.0.0/typeaheadjs.css" />
+<style>
+    .search-engine {
+        flex-wrap: nowrap !important;
+    }
+
+    .twitter-typeahead,
+    .tt-hint,
+    .tt-input,
+    .tt-menu {
+        width: 100% !important;
+    }
+
+</style>
 @endsection
 @section('page-title')
 MySSM - Home
@@ -14,8 +27,8 @@ MySSM - Home
                     <h2 class="display-3">Not just data. Truth.</h2>
                     <p class="lead">MySSM helps you get the data you need. By making use of our application and
                         extensive network of partners we can deliver any business data that you need.</p>
-                    <div class="input-group">
-                        <input type="text" class="form-control form-control-lg"
+                    <div class="input-group search-engine">
+                        <input type="text" class="form-control form-control-lg typeahead"
                             aria-label="Text input with dropdown button"
                             placeholder="Search for Company, Business or Audit Firm">
                         <div class="input-group-append">
@@ -211,5 +224,47 @@ MySSM - Home
 </section>
 @endsection
 @section('page-js')
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-typeahead/2.10.6/jquery.typeahead.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/corejs-typeahead/1.2.1/typeahead.jquery.min.js"></script>
+
+<script type="text/javascript">
+    
+    var substringMatcher = function (strs) {
+        return function findMatches(q, cb) {
+            var matches, substringRegex;
+
+            // an array that will be populated with substring matches
+            matches = [];
+
+            // regex used to determine if a string contains the substring `q`
+            substrRegex = new RegExp(q, 'i');
+
+            // iterate through the pool of strings and for any string that
+            // contains the substring `q`, add it to the `matches` array
+            $.each(strs, function (i, str) {
+                if (substrRegex.test(str)) {
+                    matches.push(str);
+                }
+            });
+
+            cb(matches);
+        };
+    };
+
+    var states = [
+        'ABC Enterprise Sdn. Bhd.',
+        'ABC Congolomerate Group Berhad',
+        'ABC School LLC',
+        'ABC Sdn. Bhd.'
+    ];
+
+    $('.typeahead').typeahead({
+        hint: true,
+        highlight: true,
+        minLength: 1
+    }, {
+        name: 'states',
+        source: substringMatcher(states)
+    });
+
+</script>
 @endsection

@@ -12,6 +12,7 @@
     <!-- custom style -->
     <link href="{{asset('css/ui.css')}}" rel="stylesheet" type="text/css" />
     <link href="{{asset('css/responsive.css')}}" rel="stylesheet" media="only screen and (max-width: 1200px)" />
+    @yield('page-css')
     <style>
         .modal-full {
             min-width: 100%;
@@ -42,7 +43,7 @@
         integrity="sha384-g5uSoOSBd7KkhAMlnQILrecXvzst9TdC09/VM+pjDTCM+1il8RHz5fKANTFFb+gQ" crossorigin="anonymous">
     </script>
     <script src="{{asset('js/script.js')}}" type="text/javascript"></script>
-
+    @yield('page-js')
 </body>
 
 </html>
