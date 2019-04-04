@@ -17,13 +17,14 @@
                         <li> <a href="{{route('register')}}"> Register </a></li>
                         <li> <a href="{{route('profile')}}"> Account Setting </a></li>
                         <li> <a href="{{route('cart')}}"> My Cart </a></li>
+                        <li> <a href="{{route('business-profile')}}"> Products </a></li>
                     </ul>
                 </aside>
                 <aside class="col-sm-3  col-md-3 white">
                     <h5 class="title">About</h5>
                     <ul class="list-unstyled">
                         <li> <a href="#"> How to buy </a></li>
-                        <li> <a href="#"> Delivery and payment </a></li>                        
+                        <li> <a href="#"> Delivery and payment </a></li>
                     </ul>
                 </aside>
                 <aside class="col-sm-3">
