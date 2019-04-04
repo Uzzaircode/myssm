@@ -18,46 +18,51 @@ MySSM - Login
                 <div class="form-row">
                     <div class="col mb-3">
                         <label for="validationDefault01">First Name</label>
-                        <input type="text" class="form-control" id="validationDefault01" 
-                             required>
+                        <input type="text" class="form-control" id="validationDefault01" required>
                     </div>
                     <div class="col mb-3">
                         <label for="validationDefault02">Last name</label>
-                        <input type="text" class="form-control" id="validationDefault02"
-                             required>
+                        <input type="text" class="form-control" id="validationDefault02" required>
                     </div>
                 </div>
                 <div class="form-row">
                     <div class="col mb-3">
                         <label for="validationDefault01">E-mail Address</label>
-                        <input type="text" class="form-control" id="validationDefault01" placeholder=""
-                            required>
+                        <input type="text" class="form-control" id="validationDefault01" placeholder="" required>
                     </div>
                     <div class="col mb-3">
                         <label for="validationDefault02">Username</label>
-                        <input type="text" class="form-control" id="validationDefault02" placeholder=""
-                             required>
+                        <input type="text" class="form-control" id="validationDefault02" placeholder="" required>
                     </div>
                 </div>
                 <div class="form-row">
                     <div class="col mb-3">
                         <label for="validationDefault01">Password</label>
-                        <input type="password" class="form-control" id="validationDefault01"
-                             value="" required>
+                        <input type="password" class="form-control" id="validationDefault01" value="" required>
                     </div>
                     <div class="col mb-3">
                         <label for="validationDefault02">Password Confirmtation</label>
-                        <input type="password" class="form-control" id="validationDefault02"
-                            value="" required>
+                        <input type="password" class="form-control" id="validationDefault02" value="" required>
                     </div>
                 </div>
                 <div class="form-row">
                     <div class="col">
                         <div class="form-group">
                             <button class="btn btn-warning btn-block font-weight-bold" type="submit">Sign Up</button>
-                            <a class="btn theme-bg-color btn-block font-weight-bold text-white" href="{{route('login')}}">Already registered?</a>
+                            <a class="btn theme-bg-color btn-block font-weight-bold text-white"
+                                href="{{route('login')}}">Already registered?</a>
                         </div>
 
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="col">
+                        <div class="form-group">
+                            <p class="display-4" style="font-size: 1.2rem">Or you can join with</p>
+                            <a href="#" class="icon-button twitter"><img src="{{asset('images/socials/twitter.svg')}}"></a>
+                            <a href="#" class="icon-button facebook"><img src="{{asset('images/socials/facebook.svg')}}"></a>
+                            <a href="#" class="icon-button google-plus"><img src="{{asset('images/socials/google.svg')}}"></a>                            
+                        </div>
                     </div>
                 </div>
 

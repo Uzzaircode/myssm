@@ -32,9 +32,22 @@ MySSM - Login
                 <div class="mt-3"></div>
                 <div class="form-group">
                     <button type="submit" class="btn btn-warning font-weight-bold btn-lg btn-block">Sign In</button>
-                    <button type="submit" class="btn theme-bg-color font-weight-bold text-white btn-lg btn-block">Sign Up</button>
+                    <button type="submit" class="btn theme-bg-color font-weight-bold text-white btn-lg btn-block">Sign
+                        Up</button>
                 </div>
             </form>
+            <div class="form-row">
+                <div class="col">
+                    <div class="form-group">
+                        <p class="display-4" style="font-size: 1.2rem">Or you can sign in with</p>
+                        <a href="#" class="icon-button twitter"><img src="{{asset('images/socials/twitter.svg')}}"></a>
+                        <a href="#" class="icon-button facebook"><img
+                                src="{{asset('images/socials/facebook.svg')}}"></a>
+                        <a href="#" class="icon-button google-plus"><img
+                                src="{{asset('images/socials/google.svg')}}"></a>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 </div>
