@@ -17,7 +17,7 @@ My Account
                                 <img src="{{asset('images/avatars/avatar.jpg')}}" alt=""
                                     class="rounded-circle text-center"
                                     style="border:3px solid #fff; box-shadow: 0 2px 4px 2px rgba(0,0,0,0.3),inset 0 5px 5px rgba(0,0,0,0.5);width:150px;background-size: cover;">
-                                <p class="display-4 mt-3" style="font-size:1.6rem">Muhammad Uzzair Baharudin</p>
+                                <p class="display-4 mt-3" style="font-size:1.6rem">John Doe</p>
                             </div>
                             <hr>
                             @include('partials.profiles.nav')

@@ -31,7 +31,7 @@ My Cart
                                                 <h6 class="title text-truncate">Business Profile CTC </h6>
                                                 <dl class="dlist-inline small">
                                                     <dt>Entity/Business Name: </dt>
-                                                    <dd>Datakraf Solution Sdn. Bhd.</dd>
+                                                    <dd>ABC Sdn. Bhd.</dd>
                                                 </dl>
                                                 <dl class="dlist-inline small">
                                                     <dt>Language: </dt>
@@ -72,7 +72,7 @@ My Cart
                                                 <h6 class="title text-truncate">CTC Certificate of Change of Name</h6>
                                                 <dl class="dlist-inline small">
                                                     <dt>Entity/Business Name: </dt>
-                                                    <dd>Datakraf Solution Sdn. Bhd.</dd>
+                                                    <dd>ABC Sdn. Bhd.</dd>
                                                 </dl>
                                                 <dl class="dlist-inline small">
                                                     <dt>Language: </dt>
@@ -114,7 +114,7 @@ My Cart
                                                 <h6 class="title text-truncate">CTC Financial Historical Comparison</h6>
                                                 <dl class="dlist-inline small">
                                                     <dt>Entity/Business Name: </dt>
-                                                    <dd>Datakraf Solution Sdn. Bhd.</dd>
+                                                    <dd>ABC Sdn. Bhd.</dd>
                                                 </dl>
                                                 <dl class="dlist-inline small">
                                                     <dt>Language: </dt>

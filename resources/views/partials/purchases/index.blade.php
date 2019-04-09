@@ -35,24 +35,24 @@
         <tbody>
             <tr>
                 <td>1</td>
-                <td>Datakraf Solution Sdn. Bhd.</td>
-                <td>167829-T</td>
+                <td>ABC Sdn. Bhd.</td>
+                <td>ABC123-T</td>
                 <td>CTC Business Profile</td>
                 <td class="text-success">Success</td>
                 <td class="text-center"><a href="">Download</a></td>
             </tr>
             <tr>
                 <td>2</td>
-                <td>Datakraf Solution Sdn. Bhd.</td>
-                <td>167830-T</td>
+                <td>ABC Sdn. Bhd.</td>
+                <td>ABC456-T</td>
                 <td>CTC Certificate of Change of Name</td>
                 <td class="text-success">Success</td>
                 <td class="text-center"><a href="">Download</a></td>
             </tr>
             <tr>
                 <td>3</td>
-                <td>Datakraf Solution Sdn. Bhd.</td>
-                <td>167831-T</td>
+                <td>ABC Sdn. Bhd.</td>
+                <td>ABC789-T</td>
                 <td>CTC Financial Historical Comparison </td>
                 <td class="text-success">Success</td>
                 <td class="text-center"><a href="">Download</a></td>

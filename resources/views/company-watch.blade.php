@@ -19,7 +19,7 @@ Company Watch - Datakraf Solution Sdn. Bhd.
         </div>
         <div class="row">
             <div class="col">
-                <p class="display-4">Datakraf Solution Sdn. Bhd.</p>
+                <p class="display-4">ABC Sdn. Bhd.</p>
             </div>
         </div>
         <hr>
@@ -34,7 +34,7 @@ Company Watch - Datakraf Solution Sdn. Bhd.
                         <div class="card text-white theme-bg-color">
                             <div class="card-body">
                                 <h4 class="lead">
-                                    Watch Datakraf Solution Sdn. Bhd. ? By watching this company you will be notified of
+                                    Watch ABC Sdn. Bhd. ? By watching this company you will be notified of
                                     this
                                     company changes.
                                 </h4>

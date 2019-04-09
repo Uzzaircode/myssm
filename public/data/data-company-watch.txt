@@ -2,7 +2,7 @@
     "data": [
         [
             "1",
-            "ABC (M) Sdn. Bhd.",                  
+            "Suprimo (M) Sdn. Bhd.",                  
             "<a href='/abc'>View</a>"
 
         ],
